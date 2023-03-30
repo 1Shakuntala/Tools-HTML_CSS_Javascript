@@ -1,0 +1,17 @@
+.container{
+    height: 400px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: coloumn;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-grow: 1;
+}
+.box{
+    border: 1px solid brown;
+    background-color: aqua;
+    width: 100px;
+
+}

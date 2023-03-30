@@ -1,0 +1,16 @@
+div{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* margin: 10px; */
+}
+.translated{
+    transform: perspective(10px) translateZ(-10px);
+}
+.scaled{
+    margin-left: 200px;
+    transform: perspective(150px) scaleZ(2) rotateX(35deg) rotateY(60deg);
+    /* In case of rotation their is no need of presepective */
+    /* transform: rotateZ(30deg); */
+}
