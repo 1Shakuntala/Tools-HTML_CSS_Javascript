@@ -1,0 +1,49 @@
+.container{
+    border: 1px solid brown;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+    display: grid;
+
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    /* grid-gap: 10px; */
+
+    /* Use On container: justify-content and align-items */ 
+
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* align-items: start;
+    align-items: end;
+    align-items: baseline; /*positioning depends on content.
+    align-items: stretch;
+    */
+    /* align-content: space-between;
+    align-content: space-evenly;
+    align-content: space-around;
+    align-content: space-evenly; */
+    /* USe on child: justify-self and align-self i.e grid items*/
+    /* place-content: center; */
+    /* align-items: center; //Not done beacuse this property is used in flexbox */
+    align-content: center;
+    justify-content: center;
+}
+
+.box{ 
+    border: 1px solid red;
+    background-color: aqua;
+
+}
+#box3{
+    /* USe on child: justify-self and align-self i.e grid items*/
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+
+    /* align-self:center; */
+}
